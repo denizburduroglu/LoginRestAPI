@@ -27,7 +27,7 @@ namespace LoginRestAPI.Controllers
                     issuer: "https://localhost:7042",
                     audience: "https://localhost:7042",
                     claims: new List<Claim>(),
-                    expires: DateTime.UtcNow.AddMinutes(1),
+                    expires: DateTime.UtcNow.AddMinutes(100),
                     signingCredentials: signinCredentials
                 );
 
